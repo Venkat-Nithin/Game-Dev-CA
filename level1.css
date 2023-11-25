@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@200&display=swap');
+*{
+    background-color: black;
+}
+body {
+    
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 0 auto;
+    background: black;
+}
+
+.abc,
+.def {
+    position: absolute;
+    top: 10px;
+    font-family: 'Lexend Giga', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    background-color: transparent;
+}
+
+.abc {
+    right: 80px;
+    margin-top: 20px;
+    
+}
+.def {
+    left: 1px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
